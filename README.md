@@ -85,25 +85,27 @@ ZenNote is a responsive web app enabling CRUD (Create, Read, Update, Delete) for
 ---
 ## 🧭 Project Structure
 
-  MERN-ZenNote/
+```C++
+MERN-ZenNote/
 │
 ├─ server/
-│   ├─ config/db.js            # MongoDB connection
-│   ├─ controllers/notesController.js    # REST logic
-│   ├─ middleware/rateLimiter.js         # API rate limiting
-│   ├─ models/note.js                    # Mongoose schema
-│   ├─ routes/notesRoutes.js             # Note routes
-│   ├─ server.js                         # App entry point
-│   └─ .env
+│ ├─ config/db.js # MongoDB connection setup
+│ ├─ controllers/notesController.js # Note CRUD logic
+│ ├─ middleware/rateLimiter.js # API rate limiter middleware
+│ ├─ models/note.js # Note schema/model definition
+│ ├─ routes/notesRoutes.js # RESTful routes for notes
+│ ├─ server.js # Main Express server entry
+│ └─ .env # Environment variables
 │
 └─ frontend/
-    ├─ src/
-    │   ├─ components/          # UI components (NoteCard, Navbar, etc.)
-    │   ├─ pages/               # HomePage, CreatePage, NoteDetailPage
-    │   └─ lib/axios.js         # Axios client wrapper
-    ├─ public/
-    ├─ vite.config.js
-    └─ package.json
+├─ src/
+│ ├─ components/ # Reusable UI components (NoteCard, Navbar, etc.)
+│ ├─ pages/ # Views like HomePage, CreatePage, NoteDetailPage
+│ └─ lib/axios.js # Axios configuration for API requests
+├─ public/ # Static assets
+├─ vite.config.js # Vite config
+└─ package.json # Frontend dependencies
+```
 
 
 
