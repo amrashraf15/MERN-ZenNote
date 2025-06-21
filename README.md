@@ -136,7 +136,7 @@ MERN-ZenNote/
 
 **👤 Developer:** Amr Ashraf  
 **📧 Email:** [amrashraf1592@gmail.com](mailto:amrashraf1592@gmail.com)  
-**🐙 GitHub:** [@amrashraf15](https://github.com/amrashraf15)
+**🐙 GitHub:** [amrashraf15](https://github.com/amrashraf15)
 
 ---
 
