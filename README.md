@@ -119,12 +119,12 @@ MERN-ZenNote/
 ## 💻 API Usage
 Base API endpoint: http://localhost:3001/api/notes (server is customizable via .env)
 
-Method	Endpoint	Description
-GET	/notes	Get all notes
-GET	/notes/:id	Get a specific note by ID
-POST	/notes	Create a new note (title, content)
-PUT	/notes/:id	Update note (title, content)
-DELETE	/notes/:id	Delete a note by ID
+- Method	 Endpoint	    Description
+- GET	    /notes	          Get all notes
+- GET	    /notes/:id	       Get a specific note by ID
+- POST	 /notes	          Create a new note (title, content)
+- PUT	    /notes/:id	       Update note (title, content)
+- DELETE	 /notes/:id	       Delete a note by ID
 
 ---
 
