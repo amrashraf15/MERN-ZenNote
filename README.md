@@ -106,8 +106,27 @@ MERN-ZenNote/
 ├─ vite.config.js # Vite config
 └─ package.json # Frontend dependencies
 ```
+---
+## 🔧 Frontend Usage
+  
+- 🏠 Home Page: View all notes with loading, empty, and rate-limit states  
+- ➕ Create Note: Form with validation; toast feedback; redirects on success
+- 🏗 **Complete UI/UX**: React, Tailwind CSS, DaisyUI, Toasts  
+- 🔍 Note Detail: View/edit/delete a note; confirmation prompt; save with toast feedback 
+- ✨ Components include <Navbar />, <NoteCard />, <Loading />, <RateLimitedUI />, <NotesNotFound />
 
+---
+## 💻 API Usage
+Base API endpoint: http://localhost:3001/api/notes (server is customizable via .env)
 
+Method	Endpoint	Description
+GET	/notes	Get all notes
+GET	/notes/:id	Get a specific note by ID
+POST	/notes	Create a new note (title, content)
+PUT	/notes/:id	Update note (title, content)
+DELETE	/notes/:id	Delete a note by ID
+
+---
 
 
 
