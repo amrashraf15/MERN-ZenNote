@@ -116,17 +116,22 @@ MERN-ZenNote/
 - ✨ Components include <Navbar />, <NoteCard />, <Loading />, <RateLimitedUI />, <NotesNotFound />
 
 ---
-## 💻 API Usage
-Base API endpoint: http://localhost:3001/api/notes (server is customizable via .env)
 
-- Method	 Endpoint	    Description
-- GET	    /notes	          Get all notes
-- GET	    /notes/:id	       Get a specific note by ID
-- POST	 /notes	          Create a new note (title, content)
-- PUT	    /notes/:id	       Update note (title, content)
-- DELETE	 /notes/:id	       Delete a note by ID
+## 💻 API Usage
+
+**Base API Endpoint**: `http://localhost:3001/api/notes`  
+(*You can customize this in your `.env` file*)
+
+| Method | Endpoint       | Description                             |
+|--------|----------------|-----------------------------------------|
+| GET    | `/notes`       | Retrieve all notes                      |
+| GET    | `/notes/:id`   | Retrieve a specific note by ID          |
+| POST   | `/notes`       | Create a new note (requires title/content) |
+| PUT    | `/notes/:id`   | Update an existing note                 |
+| DELETE | `/notes/:id`   | Delete a note by its ID                 |
 
 ---
+
 
 
 
