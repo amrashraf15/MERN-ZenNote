@@ -2,7 +2,12 @@
 
 A sleek, full-stack note-taking application built with MongoDB, Express, React, and Node.js. ZenNote offers a friendly interface for creating, reading, updating, and deleting notes seamlessly.
 
-![Home Pafe](frontend/public/Home.png) 
+<!--![Home Pafe](frontend/public/Home.png)-->
+<p align="center">
+  <img src="frontend/public/Home.png" alt="Home" width="30%" />
+  <img src="frontend/public/create.png" alt="Image 2" width="30%" />
+  <img src="frontend/public/update.png" alt="Image 3" width="30%" />
+</p>
 
 ---
 
