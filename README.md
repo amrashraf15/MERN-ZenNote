@@ -63,7 +63,6 @@ ZenNote is a responsive web app enabling CRUD (Create, Read, Update, Delete) for
 ## ⚙️ Installation
 
 ### 1. Clone the Repository  
-### 1. Clone the Repository
    ```sh
    git clone https://github.com/amrashraf15/MERN-ZenNote.git
    cd MERN-ZenNote
