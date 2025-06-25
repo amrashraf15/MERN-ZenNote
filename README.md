@@ -37,12 +37,10 @@ ZenNote is a responsive web app enabling CRUD (Create, Read, Update, Delete) for
 
 ## ✨ Features
 
-- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
-- 🎃 Authentication && Authorization with JWT
-- 👾 Real-time messaging with Socket.io
-- 🚀 Online user status (Socket.io and React Context)
-- 👌 Global state management with Zustand
-- 🐞 Error handling both on the server and on the client
+- Full-stack CRUD note app using Express.js, MongoDB (Mongoose), and React
+- Responsive UI with Tailwind CSS and DaisyUI, supporting theme switching
+- Features: toast notifications, rate-limiting, search, and loading states
+- Clean code architecture with modular backend, RESTful API, and easy extensibility
 
 ---
 
